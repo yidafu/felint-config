@@ -5,7 +5,8 @@
     "sourceType": "module"
   },
   "plugins": [
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "lean-imports"
   ],
   "env": {
     "browser": true,
@@ -13,7 +14,9 @@
   },
   "extends": [
     "plugin:@typescript-eslint/recommended",
-    "airbnb-base"
+    "airbnb"
   ],
-  "rules": {}
+  "root": true,
+  "rules": {
+  }
 }
