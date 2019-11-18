@@ -20,9 +20,9 @@ module.exports = {
         }
     },
     plan: {
-        node: ['.eslintrc_node.json', 'commitlint.config.js', 'commitlint.config.js'],
-        web: ['.eslintrc_web.json', '.stylelintrc.json', 'commitlint.config.js'],
-        default: ['.eslintrc_node.json', '.stylelintrc.json', 'commitlint.config.js']
+        node: ['.eslintrc_node.json', 'commitlint.config.js'],
+        web: ['.eslintrc_web.json', '.stylelintrc.json'],
+        default: ['.eslintrc_node.json', '.stylelintrc.json']
     },
     initHooks: 'update_git_hooks.sh'
 }
