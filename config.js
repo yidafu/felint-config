@@ -19,7 +19,7 @@ module.exports = {
     }
   },
   plan: {
-    node: ['.eslintrc_node.json', 'commitlint.config.js'],
+    node: ['.eslintrc_node.json', '.stylelintrc.json'],
     web: ['.eslintrc_web.json', '.stylelintrc.json'],
     default: ['.eslintrc_node.json', '.stylelintrc.json']
   },
