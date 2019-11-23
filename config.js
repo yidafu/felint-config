@@ -10,7 +10,7 @@ module.exports = {
       "stylelint": "7.12.0",
       "stylelint-config-standard": "16.0.0",
       "stylelint-processor-html": "1.0.0",
-      "typescript": "3.7.2"
+      "typescript": "3.7.2",
       "babel-eslint": "10.0.3",
       "eslint-config-airbnb": "14.1.0",
       "eslint-plugin-jsx-a11y": "6.2.3",
